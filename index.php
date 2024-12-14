@@ -66,26 +66,30 @@
 
                 <div class="dropdown">
                     <form role="search">
-                        <div class="d-flex">
-                            <button class="btn bg-white dropdown-toggle me-2" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Rent
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Buy Used Cars</a></li>
-                                <li><a class="dropdown-item" href="#">Luxury Cars</a></li>
-                                <li><a class="dropdown-item" href="#">Sports Cars</a></li>
-                                <li><a class="dropdown-item" href="#">Cars with Driver</a></li>
-                                <li><a class="dropdown-item" href="#">Yacht Rentals</a></li>
-                            </ul>
-                            <div class="search">
-                                <i class="bi bi-search"></i>
-                                <input  type="search" placeholder="Find your dream car">
+                        <div class="d-md-flex">
+                            <div class="d-flex flex-fill">
+                                <button class="btn bg-white dropdown-toggle me-2" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Rent
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Buy Used Cars</a></li>
+                                    <li><a class="dropdown-item" href="#">Luxury Cars</a></li>
+                                    <li><a class="dropdown-item" href="#">Sports Cars</a></li>
+                                    <li><a class="dropdown-item" href="#">Cars with Driver</a></li>
+                                    <li><a class="dropdown-item" href="#">Yacht Rentals</a></li>
+                                </ul>
+                                <div class="search">
+                                    <i class="bi bi-search"></i>
+                                    <input type="search" placeholder="Find your dream car">
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2 mt-md-0">
+                                <button class="btn btn-warning py-1 flex-fill">
+                                    VIEW ALL CARS</button>
                             </div>
 
 
-                            <button class="btn btn-warning py-1">
-                                VIEW ALL CARS</button>
                         </div>
                     </form>
                 </div>
@@ -1056,7 +1060,7 @@
     <div class="container py-5">
         <div class="wow fadeInLeft" data-wow-delay="0.2s">
             <div class="about-item">
-                <div class="pb-5">
+                <div>
                     <h1 class="display-5 text-capitalize">Why Choose <span class="text-primary"> Us?</span></h1>
                     <div class="row">
                         <div class="col-sm-6 mb-3">
@@ -1119,18 +1123,20 @@
 
                 <div class="banner-content">
 
-                    <h2 class="text-primary d-none d-sm-block">Book Your Ride</h2>
+                    <h2 class="text-primary d-none d-sm-block">Book Your Ride Today</h2>
 
-                    <h4 class="text-primary d-sm-none mt-5">Book Your Ride</h4> <!-- mobile view -->
+                    <h4 class="text-primary d-sm-none mt-5">Book Your Ride Today</h4> <!-- mobile view -->
 
-                    <h1 class="text-white">Interested in a Luxury Chauffeur?</h1>
-
-                    <p class="text-white">Don't hesitate, send us a message now.</p>
+                    <p class="text-white text-justify">Elevate your travel experience with the best <b>car hire
+                            companies in Dubai</b>.
+                        Whether you need a <b>full-day car rental with driver in Dubai</b>, a <b>7-seater car for
+                            rent</b>, or a
+                        <b>luxury car with driver</b>, we're here to make your journey seamless and unforgettable.
+                    </p>
 
                     <div class="banner-btn">
-
-                        <a href="https://api.whatsapp.com/send?phone=971524312436" target="_blank"
-                            class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatsApp</a>
+                        <!-- <a href="https://api.whatsapp.com/send?phone=971524312436" target="_blank"
+                            class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatsApp</a> -->
 
                         <a href="tel:971524312436" target="_blank"
                             class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
