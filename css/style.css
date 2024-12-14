@@ -224,7 +224,7 @@ body{
 
 /* rentdetails start */
 .rent {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/rentdetail-img.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/rent-background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,7 +258,35 @@ body{
     align-items: center;
     justify-content: center;
 }
+.rent .search{
+    flex-grow: 1;
+    background-color: #fff;
+    display: flex;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    gap: 8px;
+}
+.rent .search input{
+    flex-grow: 1;
+    border: none;
+}
 
+.rent .search input:focus{
+    outline: none;
+}
+
+.rent .search i{
+    font-size: 18px;
+}
+.rent .dropdown{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px;
+}
 /* rent details end */
 
 /*** Carousel Header Start ***/
