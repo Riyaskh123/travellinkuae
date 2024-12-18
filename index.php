@@ -106,7 +106,7 @@
     <!-- rent end -->
 
     <!-- Carousel Start -->
-
+<!-- 
     <div class="header-carousel">
 
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -268,9 +268,74 @@
 
         </div>
 
-    </div>
+    </div> -->
 
     <!-- Carousel End -->
+     <!-- banner scrollstart -->
+<!-- <div class="cards">
+<div class="card">
+    <h2 class="card-title">Luxury Chauffeur Service</h2>
+    <img src="img/carousel-1.jpg" alt="">
+    <p class="card-desc">Discover UAE in luxury. Our expert chauffeurs guarantee a seamless experience, from airport transfers to sightseeing or business trips. Sit back, relax, and savor the city while we navigate the roads for you.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Water Activities</h2>
+    <img src="img/carousel-2.jpg" alt="">
+    <p class="card-desc">Indulge in thrilling water activities in the UAE. From jet skiing to scuba diving, enjoy an unforgettable adventure on the water.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Desert Safari</h2>
+    <img src="img/carousel-3.jpg" alt="">
+    <p class="card-desc">Embark on an exhilarating desert safari in the UAE. Experience dune bashing,camel rides, and a traditional Arabian night under the stars.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Luxurious Yacht</h2>
+    <img src="img/carousel-4.jpg" alt="">
+    <p class="card-desc">Set sail on a luxurious yacht and explore the stunning coastline of the UAE.Enjoy the ultimate in relaxation and sophistication with our bespoke yacht services.</p>
+  </div>
+</div> -->
+      <!-- banner scrollend -->
+
+    <!-- <banner start> --> 
+  <div container class="row col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl 12">
+    <!-- card start -->
+    <div class="d-flex">
+        <div class="card card-style" >
+            <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="First slide" style="border-radius:20px 20px 0px 0px">
+            <div class="card-body">
+            <h5 class="card-title">Luxury Chauffeur Service</h5>
+            <p class="card-text">Discover UAE in luxury. Our expert chauffeurs guarantee a seamless experience, from airport transfers to sightseeing or business trips. Sit back, relax, and savor the city while we navigate the roads for you.</p>
+            </div>
+        </div>
+        <div class="card card-style" >
+            <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Second slide" style="border-radius:20px 20px 0px 0px">
+            <div class="card-body">
+            <h5 class="card-title">Water Activities</h5>
+            <p class="card-text">Indulge in thrilling water activities in the UAE. From jet skiing to scuba diving, enjoy an unforgettable adventure on the water.</p>
+            </div>
+        </div>
+        <div class="card card-style">
+            <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"  style="border-radius:20px 20px 0px 0px">
+            <div class="card-body">
+            <h5 class="card-title">Desert Safari</h5>
+            <p class="card-text">Embark on an exhilarating desert safari in the UAE. Experience dune bashing,camel rides, and a traditional Arabian night under the stars.</p>
+            </div>
+        </div>
+        <div class="card card-style" >
+            <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Third slide"  style="border-radius:20px 20px 0px 0px">
+            <div class="card-body">
+            <h5 class="card-title">Luxurious Yacht</h5>
+            <p class="card-text">Set sail on a luxurious yacht and explore the stunning coastline of the UAE.Enjoy the ultimate in relaxation and sophistication with our bespoke yacht services.</p>
+            </div>
+        </div>
+    </div>
+</div>
+             <!-- card end -->
+       
+
+
+
+     <!-- banner end -->
 
     <!-- About Start -->
 
@@ -978,7 +1043,7 @@
 
                         <div class="service-icon mb-4 overflow-hidden">
 
-                            <img src="img/service-img2.png" alt="Water Activities" style="height:100%" />
+                            <img src="img\service-2.png" alt="Water Activities" style="height:100%" />
 
                         </div>
 
@@ -988,6 +1053,7 @@
                             visitors and residents.</p>
 
                     </div>
+
 
                 </div>
 
@@ -1016,7 +1082,7 @@
 
                         <div class="service-icon mb-4 overflow-hidden">
 
-                            <img src="img/service-img4.jpg" alt="Desert Safari" style="height:100%" />
+                            <img src="img\service-img4.jpg" alt="Desert Safari" style="height:100%" />
 
                         </div>
 
