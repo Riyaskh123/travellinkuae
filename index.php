@@ -65,33 +65,29 @@
                 <!-- dropdown start -->
 
                 <div class="dropdown">
-                    <form role="search">
-                        <div class="d-md-flex">
-                            <div class="d-flex flex-fill">
-                                <button class="btn bg-white dropdown-toggle me-2" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Rent
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Buy Used Cars</a></li>
-                                    <li><a class="dropdown-item" href="#">Luxury Cars</a></li>
-                                    <li><a class="dropdown-item" href="#">Sports Cars</a></li>
-                                    <li><a class="dropdown-item" href="#">Cars with Driver</a></li>
-                                    <li><a class="dropdown-item" href="#">Yacht Rentals</a></li>
-                                </ul>
-                                <div class="search">
-                                    <i class="bi bi-search"></i>
-                                    <input type="search" placeholder="Find your dream car">
-                                </div>
+                    <div class="d-md-flex">
+                        <div class="d-flex flex-fill gap-2">
+                            <button class="btn bg-white dropdown-toggle search-dropdown-btn 2" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Rent
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item" href="javascript:void(0)">Buy Used Cars</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Luxury Cars</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Sports Cars</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Cars with Driver</a></li>
+                            </ul>
+                            <div class="search flex-fill">
+                                <i class="bi bi-search"></i>
+                                <input type="search" placeholder="Find your dream car">
                             </div>
-                            <div class="d-flex mt-2 mt-md-0">
-                                <button class="btn btn-warning py-1 flex-fill">
-                                    VIEW ALL CARS</button>
-                            </div>
-
-
                         </div>
-                    </form>
+                        <div class="d-flex mt-2 mt-md-0">
+                            <button type="button" class="btn btn-warning py-1 flex-fill"
+                                onclick="window.location.href='cars.php'">
+                                VIEW ALL CARS</button>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- dropdown end -->
@@ -106,7 +102,7 @@
     <!-- rent end -->
 
     <!-- Carousel Start -->
-<!-- 
+    <!-- 
     <div class="header-carousel">
 
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -271,8 +267,8 @@
     </div> -->
 
     <!-- Carousel End -->
-     <!-- banner scrollstart -->
-<!-- <div class="cards">
+    <!-- banner scrollstart -->
+    <!-- <div class="cards">
 <div class="card">
     <h2 class="card-title">Luxury Chauffeur Service</h2>
     <img src="img/carousel-1.jpg" alt="">
@@ -294,48 +290,59 @@
     <p class="card-desc">Set sail on a luxurious yacht and explore the stunning coastline of the UAE.Enjoy the ultimate in relaxation and sophistication with our bespoke yacht services.</p>
   </div>
 </div> -->
-      <!-- banner scrollend -->
+    <!-- banner scrollend -->
 
-    <!-- <banner start> --> 
-  <div container class="row col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl 12">
-    <!-- card start -->
-    <div class="d-flex">
-        <div class="card card-style" >
-            <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="First slide" style="border-radius:20px 20px 0px 0px">
-            <div class="card-body">
-            <h5 class="card-title">Luxury Chauffeur Service</h5>
-            <p class="card-text">Discover UAE in luxury. Our expert chauffeurs guarantee a seamless experience, from airport transfers to sightseeing or business trips. Sit back, relax, and savor the city while we navigate the roads for you.</p>
+    <!-- <banner start> -->
+    <div class="row p-3 ">
+        <!-- card start -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card service-card">
+                <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="First slide">
+                <div class="card-content">
+                    <h5 class="card-title text-primary">Luxury Chauffeur Service</h5>
+                    <p class="card-text">Discover UAE in luxury. Our expert chauffeurs guarantee a seamless experience,
+                        from airport transfers to sightseeing or business trips. Sit back, relax, and savor the city
+                        while we navigate the roads for you.</p>
+                </div>
             </div>
         </div>
-        <div class="card card-style" >
-            <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Second slide" style="border-radius:20px 20px 0px 0px">
-            <div class="card-body">
-            <h5 class="card-title">Water Activities</h5>
-            <p class="card-text">Indulge in thrilling water activities in the UAE. From jet skiing to scuba diving, enjoy an unforgettable adventure on the water.</p>
+        <div class="col-md-6 col-lg-3">
+            <div class="card service-card">
+                <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Second slide">
+                <div class="card-content">
+                    <h5 class="card-title text-primary">Water Activities</h5>
+                    <p class="card-text">Indulge in thrilling water activities in the UAE. From jet skiing to scuba
+                        diving, enjoy an unforgettable adventure on the water.</p>
+                </div>
             </div>
         </div>
-        <div class="card card-style">
-            <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"  style="border-radius:20px 20px 0px 0px">
-            <div class="card-body">
-            <h5 class="card-title">Desert Safari</h5>
-            <p class="card-text">Embark on an exhilarating desert safari in the UAE. Experience dune bashing,camel rides, and a traditional Arabian night under the stars.</p>
+        <div class="col-md-6 col-lg-3">
+            <div class="card service-card">
+                <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide">
+                <div class="card-content">
+                    <h5 class="card-title text-primary">Desert Safari</h5>
+                    <p class="card-text">Embark on an exhilarating desert safari in the UAE. Experience dune
+                        bashing,camel rides, and a traditional Arabian night under the stars.</p>
+                </div>
             </div>
         </div>
-        <div class="card card-style" >
-            <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Third slide"  style="border-radius:20px 20px 0px 0px">
-            <div class="card-body">
-            <h5 class="card-title">Luxurious Yacht</h5>
-            <p class="card-text">Set sail on a luxurious yacht and explore the stunning coastline of the UAE.Enjoy the ultimate in relaxation and sophistication with our bespoke yacht services.</p>
+        <div class="col-md-6 col-lg-3">
+            <div class="card service-card">
+                <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Third slide">
+                <div class="card-content">
+                    <h5 class="card-title text-primary">Luxurious Yacht</h5>
+                    <p class="card-text">Set sail on a luxurious yacht and explore the stunning coastline of the
+                        UAE.Enjoy the ultimate in relaxation and sophistication with our bespoke yacht services.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-             <!-- card end -->
-       
+    <!-- card end -->
 
 
 
-     <!-- banner end -->
+
+    <!-- banner end -->
 
     <!-- About Start -->
 
@@ -476,6 +483,129 @@
     </div>
 
     <!-- About End -->
+
+    <!-- Services Start -->
+
+    <div class="container-fluid service ">
+
+        <div class="container py-5">
+
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+
+                <h1 class="display-5 text-capitalize mb-3">Our <span class="text-primary">Services</span></h1>
+
+                <p class="mb-0">Explore our premium range of services designed to offer you luxury, comfort, and
+
+                    unforgettable experiences. From elite chauffeur services to exciting travel adventures, we cater to
+
+                    all your needs.</p>
+
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img/about-img-1.jpg" alt="Dubai Chauffeur Service" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Rent a Car with Driver in Dubai</h5>
+
+                        <p class="mb-0">We provide a wide range of chauffeur-driven vehicles for short-term and
+                            long-term rentals, including options for rent a car with driver in Abu Dhabi and Dubai.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\service-2.png" alt="Water Activities" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Car Hire Dubai with No Deposit</h5>
+
+                        <p class="mb-0">Simplify your rental experience with no-deposit car hire options, perfect for
+                            visitors and residents.</p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\service-img3.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Luxury Chauffeur Services</h5>
+
+                        <p class="mb-0">Travel in style with our premium luxury car with driver in Dubai, ideal for
+                            business meetings, special events, or leisure travel.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\service-img4.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Airport Transfers</h5>
+
+                        <p class="mb-0">Experience stress-free airport transportation with our car hire from Dubai
+                            Airport, ensuring timely and comfortable pickups and drop-offs.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\service-img5.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Group & Family Travel</h5>
+
+                        <p class="mb-0">Make group travel effortless with our spacious 7-seater cars for rent in Dubai,
+                            perfect for families or team outings.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Services End -->
 
 
 
@@ -998,130 +1128,6 @@
     <!-- Car Steps End -->
 
 
-    <!-- Services Start -->
-
-    <div class="container-fluid service ">
-
-        <div class="container py-5">
-
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-
-                <h1 class="display-5 text-capitalize mb-3">Our <span class="text-primary">Services</span></h1>
-
-                <p class="mb-0">Explore our premium range of services designed to offer you luxury, comfort, and
-
-                    unforgettable experiences. From elite chauffeur services to exciting travel adventures, we cater to
-
-                    all your needs.</p>
-
-            </div>
-
-            <div class="row g-4 justify-content-center">
-
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-
-                    <div class="service-item p-4">
-
-                        <div class="service-icon mb-4 overflow-hidden">
-
-                            <img src="img/about-img-1.jpg" alt="Dubai Chauffeur Service" style="height:100%" />
-
-                        </div>
-
-                        <h5 class="mb-3">Rent a Car with Driver in Dubai</h5>
-
-                        <p class="mb-0">We provide a wide range of chauffeur-driven vehicles for short-term and
-                            long-term rentals, including options for rent a car with driver in Abu Dhabi and Dubai.</p>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-
-                    <div class="service-item p-4">
-
-                        <div class="service-icon mb-4 overflow-hidden">
-
-                            <img src="img\service-2.png" alt="Water Activities" style="height:100%" />
-
-                        </div>
-
-                        <h5 class="mb-3">Car Hire Dubai with No Deposit</h5>
-
-                        <p class="mb-0">Simplify your rental experience with no-deposit car hire options, perfect for
-                            visitors and residents.</p>
-
-                    </div>
-
-
-                </div>
-
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-
-                    <div class="service-item p-4">
-
-                        <div class="service-icon mb-4 overflow-hidden">
-
-                            <img src="img\service-img3.jpg" alt="Desert Safari" style="height:100%" />
-
-                        </div>
-
-                        <h5 class="mb-3">Luxury Chauffeur Services</h5>
-
-                        <p class="mb-0">Travel in style with our premium luxury car with driver in Dubai, ideal for
-                            business meetings, special events, or leisure travel.</p>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-
-                    <div class="service-item p-4">
-
-                        <div class="service-icon mb-4 overflow-hidden">
-
-                            <img src="img\service-img4.jpg" alt="Desert Safari" style="height:100%" />
-
-                        </div>
-
-                        <h5 class="mb-3">Airport Transfers</h5>
-
-                        <p class="mb-0">Experience stress-free airport transportation with our car hire from Dubai
-                            Airport, ensuring timely and comfortable pickups and drop-offs.</p>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-
-                    <div class="service-item p-4">
-
-                        <div class="service-icon mb-4 overflow-hidden">
-
-                            <img src="img\service-img5.jpg" alt="Desert Safari" style="height:100%" />
-
-                        </div>
-
-                        <h5 class="mb-3">Group & Family Travel</h5>
-
-                        <p class="mb-0">Make group travel effortless with our spacious 7-seater cars for rent in Dubai,
-                            perfect for families or team outings.</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- Services End -->
-
-
     <!-- why choose us start -->
     <div class="container py-5">
         <div class="wow fadeInLeft" data-wow-delay="0.2s">
@@ -1253,6 +1259,12 @@
 
     <script src="js/main.js"></script>
 
+    <script>
+        $('.search-dropdown li a').click(function () {
+            var selText = $(this).text();
+            $('.search-dropdown-btn').html(selText);
+        });
+    </script>
 </body>
 
 </html>

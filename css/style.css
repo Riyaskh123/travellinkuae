@@ -356,20 +356,45 @@ body{
 
 
 /* banner start */
-.card-style{
-    border-radius:30px;
-    margin:10px;
+.service-card{
+    /* border-radius:30px; */
+    margin-bottom:5px;
     transition:all 1s;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 100%;
     justify-content: space-between;
     animation-duration: 5s;
     animation-delay: 1s;
     animation-direction: alternate;
     transition: 0.5s;
+    overflow: hidden;
 }
-.card-style:hover{
-    transform: scaleX(1.1);
+.service-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.service-card .card-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.service-card:hover{
+    width: 110%;
+}
+
+.service-card:hover .card-content{
+    top:0
+}
+
+.card-style p{
+    text-align: justify;
 }
 
 /* banner end */
@@ -933,7 +958,7 @@ body{
     }
 
     .banner .banner-item .banner-content p {
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 20px;
     }
 }
@@ -943,6 +968,10 @@ body{
         font-size: 20px;
         margin-bottom: 10px;
         font-weight: 600;
+    }
+    .banner .banner-item .banner-content p {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
