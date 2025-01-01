@@ -50,13 +50,16 @@
                             target="_blank"><i class="fa fa-facebook-f text-white"></i></a>
                         <!-- <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
                                 class="fa fa-twitter text-white"></i></a> -->
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" 
-                        href="https://www.instagram.com/travellinkuae?igsh=MTk2eWRvcW1kb2theA=="><i
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3"
+                            href="https://www.instagram.com/travellinkuae?igsh=MTk2eWRvcW1kb2theA==" target="_blank"><i
                                 class="fa fa-instagram text-white"></i></a>
+                        <a href="https://www.linkedin.com/in/travellink-uae-2769b6320/"
+                            class="btn btn-secondary btn-md-square rounded-circle me-3" target="_blank"><i class="fa fa-linkedin text-white"></i></a>
                         <!-- <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
                                 class="fa fa-linkedin text-white"></i></a> -->
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="https://www.tiktok.com/@travellinkuae?_t=8pzi7w8YHWD&_r=1" target="_blank">
-                            <img class="tiktok" src="img/tiktok.png" height="15px" style="filter:invert(1)" >
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3"
+                            href="https://www.tiktok.com/@travellinkuae?_t=8pzi7w8YHWD&_r=1" target="_blank">
+                            <img class="tiktok" src="img/tiktok.png" height="15px" style="filter:invert(1)">
                         </a>
                     </div>
                 </div>
@@ -96,7 +99,7 @@
     <a href="https://api.whatsapp.com/send?phone=971524312436" class="float whatsapp" target="_blank">
         <i class="fa fa-whatsapp "></i>
     </a>
-    
+
 </div>
 
 

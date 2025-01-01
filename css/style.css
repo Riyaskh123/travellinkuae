@@ -262,19 +262,21 @@ body{
     flex-grow: 1;
     background-color: #fff;
     display: flex;
-    margin-right: 10px;
     border-radius: 10px;
     padding: 10px;
     align-items: center;
     gap: 8px;
+    
 }
 .rent .search input{
     flex-grow: 1;
     border: none;
+    width: 100%;
 }
 
 .rent .search input:focus{
     outline: none;
+    min-width: none;
 }
 
 .rent .search i{
@@ -384,18 +386,22 @@ body{
     padding: 10px;
     transition: 0.5s;
 }
-
-.service-card:hover{
-    width: 110%;
-}
-
-.service-card:hover .card-content{
-    top:0
-}
-
 .card-style p{
     text-align: justify;
 }
+
+@media screen and (min-width: 768px){
+    .service-card:hover{
+        width: 110%;
+    }
+    
+    .service-card:hover .card-content{
+        top:0
+    }
+    
+}
+
+
 
 /* banner end */
 

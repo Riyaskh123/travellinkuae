@@ -65,7 +65,7 @@
                 <!-- dropdown start -->
 
                 <div class="dropdown">
-                    <div class="d-md-flex">
+                    <div class="d-md-flex gap-2">
                         <div class="d-flex flex-fill gap-2">
                             <button class="btn bg-white dropdown-toggle search-dropdown-btn 2" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,7 +77,7 @@
                                 <li><a class="dropdown-item" href="javascript:void(0)">Sports Cars</a></li>
                                 <li><a class="dropdown-item" href="javascript:void(0)">Cars with Driver</a></li>
                             </ul>
-                            <div class="search flex-fill">
+                            <div class="search">
                                 <i class="bi bi-search"></i>
                                 <input type="search" placeholder="Find your dream car">
                             </div>

@@ -20,14 +20,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo isset($carURL) ? '../': "./" ?>lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?php echo isset($carURL) ? '../': "./" ?>lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link rel="icon" href="img/favicon.png" />
+    <link rel="icon" href="<?php isset($carURL) ? '../': "./" ?>img/favicon.png" />
 
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo isset($carURL) ? '../': "./" ?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo isset($carURL) ? '../': "./" ?>css/style.css" rel="stylesheet">

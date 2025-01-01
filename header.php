@@ -19,12 +19,16 @@
                     <!-- <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
                                 class="fa fa-twitter"></i></a> -->
                     <a href="https://www.instagram.com/travellinkuae?igsh=MTk2eWRvcW1kb2theA=="
-                        class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fa fa-instagram"></i></a>
+                        class="btn btn-light btn-sm-square rounded-circle me-3" target="_blank"><i class="fa fa-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/travellink-uae-2769b6320/"
+                        class="btn btn-light btn-sm-square rounded-circle me-3" target="_blank"><i class="fa fa-linkedin"></i></a>
+
                     <!-- <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i
                                 class="fa fa-linkedin"></i></a> -->
                     <a href="https://www.tiktok.com/@travellinkuae?_t=8pzi7w8YHWD&_r=1"
                         class="btn btn-light btn-sm-square rounded-circle me-3" target="_blank"><img class="tiktok"
-                            src="img/tiktok.png" height="15px"></a>
+                            src="<?php echo isset($carURL) ? '../': "./" ?>img/tiktok.png" height="15px"></a>
                 </div>
             </div>
         </div>
@@ -38,25 +42,25 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <a href="index.php" class="navbar-brand p-0">
                 <!-- <h1 class="display-6 text-primary"><i class="fas fa-car-alt me-3"></i></i>Cental</h1> -->
-                <img src="img/logo.png" alt="Logo" height="60px">
+                <img src="<?php echo isset($carURL) ? '../': "./" ?>img/logo.png" alt="Logo" height="60px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="index.php" class="nav-item nav-link">Home</a>
-                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="<?php echo isset($carURL) ? '../': "./" ?>" class="nav-item nav-link">Home</a>
+                    <a href="<?php echo isset($carURL) ? '../': "./" ?>about.php" class="nav-item nav-link">About</a>
 
                     <div class="nav-item dropdown">
-                        <a href="service.php" class="nav-link" data-bs-toggle="dropdown">Services <i
+                        <a href="<?php echo isset($carURL) ? '../': "./" ?>service.php" class="nav-link" data-bs-toggle="dropdown">Services <i
                                 class="fa fa-sort-desc"></i></a>
                         <div class="dropdown-menu m-0">
-                            <a href="chauffer-service-in-dubai.php" class="dropdown-item">Chauffer Service</a>
+                            <a href="<?php echo isset($carURL) ? '../': "./" ?>chauffer-service-in-dubai.php" class="dropdown-item">Chauffer Service</a>
                         </div>
                     </div>
-                    <a href="cars.php" class="nav-item nav-link">Cars</a>
-                    <a href="enquiry.php" class="nav-item nav-link">Enquiry</a>
+                    <a href="<?php echo isset($carURL) ? '../': "./" ?>cars.php" class="nav-item nav-link">Cars</a>
+                    <a href="<?php echo isset($carURL) ? '../': "./" ?>enquiry.php" class="nav-item nav-link">Enquiry</a>
                     <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu m-0">
@@ -67,15 +71,18 @@
                                     <a href="404.html" class="dropdown-item">404 Page</a>
                                 </div>
                             </div> -->
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="<?php echo isset($carURL) ? '../': "./" ?>contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="enquiry.php" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+                <a href="<?php echo isset($carURL) ? '../': "./" ?>enquiry.php" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
             </div>
         </nav>
     </div>
 </div>
 <script>
-    document.querySelector('.dropdown .nav-link').addEventListener('click', function (e) {
-        window.location.href = 'service.php';
-    });
+    if (window.screen.width > 992) {
+        document.querySelector('.dropdown .nav-link').addEventListener('click', function (e) {
+            e.preventDefault();
+            window.location.href = '<?php echo isset($carURL) ? '../': "./" ?>service.php';
+        });
+    }
 </script>

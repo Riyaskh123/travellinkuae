@@ -5,6 +5,7 @@ function cars(){
 
     $cars = [
         [
+            "url"=>"lexus-es-300h",
             "name"=>"Lexus ES 300H",
             "image"=>"lexsus.webp",
             "rate"=>"350",
@@ -16,6 +17,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"audi-a6",
             "name"=>"Audi A6",
             "image"=>"2024_24-1024x464-1-1.webp",
             "rate"=>"400",
@@ -27,6 +29,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"bmw-7-serious",
             "name"=>"BMW 7 Serious",
             "image"=>"bmw_7.png",
             "rate"=>"500",
@@ -38,6 +41,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"tesla",
             "name"=>"Tesla",
             "image"=>"tesla-1536x875-1-e1701091008713-1024x540-1.png",
             "rate"=>"800",
@@ -49,6 +53,7 @@ function cars(){
             "showHome"=>false
         ],
         [
+            "url"=>"audi-a8",
             "name"=>"Audi A8",
             "image"=>"e82858ad-dbad-4d06-b69a-c2ad944961d9-qgnqa6rp7ak2ad07rh99ujqlaff57xfze73grcm9sg.webp",
             "rate"=>"800",
@@ -60,6 +65,7 @@ function cars(){
             "showHome"=>false
         ],
         [
+            "url"=>"mercedes-s-class-500",
             "name"=>"Mercedes S Class 500",
             "image"=>"s-class.png",
             "rate"=>"1000",
@@ -71,6 +77,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"toyota-highlander",
             "name"=>"Toyato HighLander",
             "image"=>"highlander-2048x878-1.webp",
             "rate"=>"350",
@@ -82,6 +89,7 @@ function cars(){
             "showHome"=>false
         ],
         [
+            "url"=>"kia-carnival",
             "name"=>"KIA Carnival",
             "image"=>"2947881-L2hvbWUvZGVhbGVycy9hc3NldHMvNjMyL2ltYWdlcy8yOTQ3ODgxLTIwMjNraWFjYXJuaXZhbG1wdmV4LnBuZw.png",
             "rate"=>"380",
@@ -93,6 +101,7 @@ function cars(){
             "showHome"=>false
         ],
         [
+            "url"=>"mercedes-v250",
             "name"=>"Mercedes v250",
             "image"=>"viano.png",
             "rate"=>"550",
@@ -104,6 +113,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"gmc-yukon-xl",
             "name"=>"GMC Yukon XL",
             "image"=>"mlp-img-top-2023-yukon-temp-1.png",
             "rate"=>"500",
@@ -115,6 +125,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"suburban-chevrolet",
             "name"=>"Suburban Chevrolet",
             "image"=>"2023_24-1-1.webp",
             "rate"=>"1200",
@@ -126,6 +137,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"gmc-denali-20-passenger",
             "name"=>"GMC Denali 20 Passenger",
             "image"=>"gmc_denali.png",
             "rate"=>"500",
@@ -137,6 +149,7 @@ function cars(){
             "showHome"=>true
         ],
         [
+            "url"=>"mercedes-sprinter-executive",
             "name"=>"Mercedes Sprinter Executive",
             "image"=>"sprinter.png",
             "rate"=>"1500",
@@ -148,6 +161,7 @@ function cars(){
             "showHome"=>false
         ],
         [
+            "url"=>"king-long-bus",
             "name"=>"King Long Bus",
             "image"=>"bus-mercedes-benz-sprinter-car-luxury-vehicle-png-favpng-Kd7Y6VpPpvk4x1Sv6PY5gXJXi-removebg.png",
             "rate"=>"1000",
