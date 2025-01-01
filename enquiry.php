@@ -40,6 +40,8 @@
 <body>
     <?php include 'body.php' ?>
 
+    <?php include 'header.php' ?>
+
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Header Start -->
