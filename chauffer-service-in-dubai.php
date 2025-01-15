@@ -149,6 +149,9 @@
             <!-- Left Content -->
             <div class="col-lg-12">
                 <p>Looking for a chauffeur service in Dubai that feels personal? Skip the taxi queues.</p>
+                <P>Travel Link UAE, where luxury meets convenience. Experience an unparalleled level of sophistication
+                     and comfort with our Dubai chauffeur service, designed to cater to your every need. Whether you are
+                      visiting for business, leisure, or a special occasion, we are your trusted travel partner, offering seamless journeys across the UAE.</P>
 
                 <p>At Travel link UAE, we've been getting people around this magnificent city since 2018. Our chauffeur
                     service turns everyday journeys into comfortable experiences. Yeah, we're that team you see at
@@ -412,6 +415,126 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Services Start -->
+
+    <div class="container-fluid service ">
+
+        <div class="container py-5">
+
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+
+                <h1 class="display-5 text-capitalize mb-3">Why Choose Travel Link UAE for  <span class="text-primary">Chauffeur Services?</span></h1>
+
+                <p class="mb-0">When you choose Travel Link UAE, you are not just booking a ride; you are investing in an experience that blends reliability, luxury, and professionalism. Here’s what sets us apart:
+                </p>
+
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img/chauffer-service-1.jpg" alt="Dubai Chauffeur Service" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Premium Fleet</h5>
+
+                        <p class="mb-0"> Our luxury cars, from sleek Mercedes-Benz models to spacious Tesla SUVs, cater to every taste and requirement.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div class="service-item p-4" style="height:275px;">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\chauffer-service-2.jpg" alt="Water Activities" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Professional Chauffeurs</h5>
+
+                        <p class="mb-0">Our chauffeurs are multilingual, well-trained, and familiar with Dubai’s streets and landmarks, ensuring a smooth ride every time.</p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\chauffer-service-3.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Flexible Services</h5>
+
+                        <p class="mb-0">From hourly bookings to full-day rentals, we adapt to your schedule and preferences.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\chauffer-service-4.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Transparent Pricing</h5>
+
+                        <p class="mb-0"> Enjoy peace of mind with our fixed, upfront pricing—no hidden charges or surprise fees.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="service-item p-4" style="height:275px;">
+
+                        <div class="service-icon mb-4 overflow-hidden">
+
+                            <img src="img\chauffer-service-5.jpg" alt="Desert Safari" style="height:100%" />
+
+                        </div>
+
+                        <h5 class="mb-3">Customer-Centric Approach</h5>
+
+                        <p class="mb-0">We offer 24/7 support to accommodate your needs, whether you’re planning an early morning airport transfer or a late-night event.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Services End -->
+
+
+
 
                 <div class="testimonial py-3">
                     <div class="container py-5">
@@ -478,6 +601,7 @@
                 </div>
 
 
+                
 
                 <div class="banner py-3" data-wow-delay="0.2s">
                     <div class="banner-item rounded">

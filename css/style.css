@@ -477,6 +477,7 @@ body{
 
 /*** Features End ***/
 
+
 /*** About Start ***/
 
 .about{
@@ -643,10 +644,11 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background: var(--bs-white);
     transition: 0.5s;
+    
 }
 
 .service .service-item:hover {
