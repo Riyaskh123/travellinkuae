@@ -272,7 +272,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="d-flex gap-2">
-                                                    <a href="cardetails.php?id=<?php echo $i ?>"
+                                                    <a href="cars/<?php echo $cars[$i]["url"] ?>"
                                                         class="btn btn-primary flex-fill rounded-pill">View Details</a>
                                                     <a href="enquiry.php" class="btn btn-secondary flex-fill rounded-pill ">Book
                                                         Now</a>
