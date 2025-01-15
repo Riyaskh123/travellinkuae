@@ -417,11 +417,11 @@
                 </div>
                  <!-- Services Start -->
 
-    <div class="container-fluid service ">
+    <div class="service ">
 
-        <div class="container py-5">
+        <div class="py-5">
 
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" >
 
                 <h1 class="display-5 text-capitalize mb-3">Why Choose Travel Link UAE for  <span class="text-primary">Chauffeur Services?</span></h1>
 
@@ -453,11 +453,11 @@
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
 
-                    <div class="service-item p-4" style="height:275px;">
+                    <div class="service-item p-4">
 
                         <div class="service-icon mb-4 overflow-hidden">
 
-                            <img src="img\chauffer-service-2.jpg" alt="Water Activities" style="height:100%" />
+                            <img src="img/chauffer-service-2.jpg" alt="Water Activities" style="height:100%" />
 
                         </div>
 
@@ -508,7 +508,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
 
-                    <div class="service-item p-4" style="height:275px;">
+                    <div class="service-item p-4">
 
                         <div class="service-icon mb-4 overflow-hidden">
 
